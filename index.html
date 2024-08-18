@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tercera preEntrega</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1 id = 'Bienvenido'>Bienvenido</h1>
+    <form id="formCliente" style="display: none">
+        <label>Ingresar nombre completo del cliente</label>
+        <input type="text" id="cliente"></input>
+        <button id = 'guardarCliente' type = 'button'>Guardar cliente</button>
+    </form>
+
+    <form id="formGastos" style="display: none">
+        <label>Ingresar gastos</label>
+        <input type="parseFloat" id="gastos"></input>
+        <button id = 'guardarGastos' type = 'button'>Guardar gastos</button>
+    </form>
+
+    <form id="formCalculo" style="display: none">Los gastos son
+        <p id="suma"></p>
+        <p id="promedio"></p>
+    </form>
+
+    <button id = 'calcular' style="display: none">Calcular gastos</button>
+    <button id = 'ver' style="display: none">Ver Clientes</button>
+    <button id = 'eliminar' style="display: none">Eliminar Clientes</button>
+    <button id = 'borrarTodo' style="display: none">Borrar base de datos</button>
+    <button id = 'iniciar' style="display: none">Iniciar sesión</button>
+    <button id = 'salirSesion' style="display: none">Salir de sesión</button>
+    <!-- Librerias SWAL -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Incluir el archivo JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>

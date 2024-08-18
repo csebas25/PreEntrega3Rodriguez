@@ -1,0 +1,36 @@
+#guardarCliente {
+    background-color: white
+}
+
+#guardarGastos {
+    background-color: white
+}
+
+#calcular {
+    background-color: white
+}
+
+#ver {
+    background-color: white
+}
+
+#eliminar {
+    background-color: white
+}
+
+#borrarTodo {
+    background-color: white
+}
+
+#iniciar {
+    background-color: white
+}
+
+#salirSesion {
+    background-color: white
+}
+
+/* Clase para el color rojo */
+.red {
+    background-color: red !important
+}
